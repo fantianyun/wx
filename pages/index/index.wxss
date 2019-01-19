@@ -1,0 +1,147 @@
+.container{
+  display: flex;
+  flex-flow: column nowrap;
+}
+.search_out {
+  background:#FF6801;
+  width:100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search_input {
+  background:rgb(243, 241, 240);
+  margin: 10px;
+  width:100%;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search_input view {
+ font-size: 15px;
+ margin-left: 5px;
+}
+.slide-image{
+  width: 100%;
+  min-height: 100px;
+}
+.itemclass_list{
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  margin-top: 5px;
+
+}
+.itemclass_item{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+}
+.itemclass_item view{
+  width: 40px;
+  height: 30px;
+  background: blueviolet;
+}
+.itemclass_item text{
+  font-size: 12px;
+  margin-top: 3px;
+  color: #c3c3c3;
+}
+.mid-banner-container{
+  background: #EBEBEB;
+  margin-top: 10px;
+}
+.mid-banner{
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  
+}
+.mid-banner-item{
+  background: #c1dde9;
+  width: 49.5%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mid-banner-item view{
+  height: 49.5%;
+  background: #EDBDBD;
+}
+/* 每日精选 */
+.mrjx{
+  display: flex;
+  flex-direction: column;
+  
+}
+.mrjx_text{
+  line-height: 30px;
+  font-size: 18px;
+  height: 30px;
+  
+}
+.mrjx_img{
+  height:180px;
+  width: 100%;
+}
+/* 商品列表 */
+.item_list{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 3px;
+}
+.item_list_item{
+  width: 49.5%;
+  height: 200px;
+ 
+}
+.item_list_item_img{
+  background: blueviolet;
+  width: 100%;
+  height: 60%;
+}
+.item_list_item_des{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 10px;
+}
+.item_list_item_text{
+  font-size: 12px;
+  margin-left: 15px;
+}
+.item_list_item_name{
+  margin-top: 15px;
+  font-size: 16px;
+}
+.item_list_item_desc_text{
+  font-size: 11px;
+  color: #949494;
+}
+.item_list_item_price{
+  display: flex;
+  
+}
+.item_list_item_newprice{
+  font-size: 16px;
+  color: #edb180;
+}
+.item_list_item_oldprice{
+  font-size: 10px;
+  padding-left: 15px;
+  padding-top: 6px;
+  text-decoration:line-through;
+  color: #949494;
+}

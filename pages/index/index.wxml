@@ -1,0 +1,142 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='search_out'>
+    <view class='search_input'>
+      <icon type='search' size='20px'></icon>
+      <view>搜索商品</view>
+    </view>
+  </view>
+  <swiper indicator-dots='true' autoplay='false'>
+    <swiper-item>
+      <image src="https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1547877866585.jpg" class="slide-image"  />
+    </swiper-item>
+    <swiper-item>
+     <image src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1547706546052.jpg'class="slide-image" ></image> 
+    </swiper-item>
+  </swiper>
+  <view class='itemclass_list'>
+    <view class='itemclass_item'>
+      <view></view>
+      <text>海鲜水产</text>
+    </view>
+    <view class='itemclass_item'>
+      <view></view>
+      <text>海鲜水产</text>
+    </view>
+    <view class='itemclass_item'>
+      <view></view>
+      <text>海鲜水产</text>
+    </view>
+    <view class='itemclass_item'>
+      <view></view>
+      <text>海鲜水产</text>
+    </view>
+    <view class='itemclass_item'>
+      <view></view>
+      <text>海鲜水产</text>
+    </view>
+   <view class='itemclass_item'>
+      <view></view>
+      <text>海鲜水产</text>
+    </view>
+    <view class='itemclass_item'>
+      <view></view>
+      <text>海鲜水产</text>
+    </view>
+    <view class='itemclass_item'>
+      <view></view>
+      <text>海鲜水产</text>
+    </view>
+    <view class='itemclass_item'>
+      <view></view>
+      <text>海鲜水产</text>
+    </view>
+    <view class='itemclass_item'>
+      <view></view>
+      <text>海鲜水产</text>
+    </view>
+  </view>
+  <view class='mid-banner-container'>
+     <view class='mid-banner'>
+      <view class='mid-banner-item'></view>
+      <view class='mid-banner-item'>
+        <view></view>
+        <view></view>
+    </view>
+  </view>
+  </view>
+ <view class='mrjx'>
+  <view class='mrjx_text'>每日精选</view>
+  <image src="https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1547877866585.jpg" class="mrjx_img"  />
+ </view>
+ <view class='item_list'>
+    <view class='item_list_item'>
+      <view class='item_list_item_img'></view>
+      <view class='item_list_item_des'>
+        <view class='item_list_item_name'>商品名称</view>
+        <view class='item_list_item_desc_text'>小屏高性能双摄摄像机</view>
+        <view class='item_list_item_price'>
+          <view class='item_list_item_newprice'>799元起</view>
+          <view class='item_list_item_oldprice'>899元起</view>
+        </view>
+      </view>
+    </view>
+    <view class='item_list_item'>
+      <view class='item_list_item_img'></view>
+      <view class='item_list_item_des'>
+        <view class='item_list_item_name'>商品名称</view>
+        <view class='item_list_item_desc_text'>小屏高性能双摄摄像机</view>
+        <view class='item_list_item_price'>
+          <view class='item_list_item_newprice'>799元起</view>
+          <view class='item_list_item_oldprice'>899元起</view>
+        </view>
+      </view>
+    </view>
+    <view class='item_list_item'>
+      <view class='item_list_item_img'></view>
+      <view class='item_list_item_des'>
+        <view class='item_list_item_name'>商品名称</view>
+        <view class='item_list_item_desc_text'>小屏高性能双摄摄像机</view>
+        <view class='item_list_item_price'>
+          <view class='item_list_item_newprice'>799元起</view>
+          <view class='item_list_item_oldprice'>899元起</view>
+        </view>
+      </view>
+    </view>
+    <view class='item_list_item'>
+      <view class='item_list_item_img'></view>
+      <view class='item_list_item_des'>
+        <view class='item_list_item_name'>商品名称</view>
+        <view class='item_list_item_desc_text'>小屏高性能双摄摄像机</view>
+        <view class='item_list_item_price'>
+          <view class='item_list_item_newprice'>799元起</view>
+          <view class='item_list_item_oldprice'>899元起</view>
+        </view>
+      </view>
+    </view>
+    <view class='item_list_item'>
+      <view class='item_list_item_img'></view>
+      <view class='item_list_item_des'>
+        <view class='item_list_item_name'>商品名称</view>
+        <view class='item_list_item_desc_text'>小屏高性能双摄摄像机</view>
+        <view class='item_list_item_price'>
+          <view class='item_list_item_newprice'>799元起</view>
+          <view class='item_list_item_oldprice'>899元起</view>
+        </view>
+      </view>
+    </view>
+    <view class='item_list_item'>
+      <view class='item_list_item_img'></view>
+      <view class='item_list_item_des'>
+        <view class='item_list_item_name'>商品名称</view>
+        <view class='item_list_item_desc_text'>小屏高性能双摄摄像机</view>
+        <view class='item_list_item_price'>
+          <view class='item_list_item_newprice'>799元起</view>
+          <view class='item_list_item_oldprice'>899元起</view>
+        </view>
+      </view>
+    </view>
+    
+  </view>
+</view>
+
