@@ -1,2 +1,213 @@
-<!--pages/class/class.wxml-->
-<text>pages/class/class.wxml</text>
+<view class="container">
+  <view class='container_left'>
+    <scroll-view scroll-y="true" scroll-into-view="{{toClassView}}" style="height:450px;" >
+    <view id="xinpin" style="background:{{bgcolors['xinpin']}}" class='class_item' bindtap='classClick'>新品</view>
+    <view id="zhongchou" style="background:{{bgcolors['zhongchou']}}" class='class_item' bindtap='classClick'>众筹</view>
+    <view id="shouji" style="background:{{bgcolors['shouji']}}" class='class_item' bindtap='classClick'>手机</view>
+    <view id="dianshi" class='class_item' bindtap='classClick'>电视</view>
+    <view id="diannao" class='class_item' bindtap='classClick'>电脑</view>
+    <view id="jiadian" class='class_item' bindtap='classClick'>家电</view>
+    <view id="luyou" class='class_item' bindtap='classClick'>路由</view>
+    <view id="chuxing" class='class_item' bindtap='classClick'>出行</view>
+    <view id="chuandai" class='class_item' bindtap='classClick'>穿戴</view>
+    <view id="zhineng" class='class_item' bindtap='classClick'>智能</view>
+    <view id="dianyuan" class='class_item' bindtap='classClick'>电源</view>
+    <view id="dengju" class='class_item' bindtap='classClick'>灯具</view> 
+    <view id="ertong" class='class_item' bindtap='classClick'>儿童</view>
+    <view id="chaxinban" class='class_item' bindtap='classClick'>插线板</view>
+    <view id="yinpin" class='class_item' bindtap='classClick'>音频</view>
+    <view id="xiangbao" class='class_item' bindtap='classClick'>箱包</view>
+    </scroll-view>
+  </view>
+  <view class='container_right'>
+    <scroll-view scroll-y="true" bindscroll='classScroll' scroll-into-view="{{toItemsView}}" scroll-top ="10px" style="height:450px;" >
+      <view id ='l_xinpin' class='class_items'>
+      <view  class='class_items_classname'>新品</view>
+      <view class='class_items_list'>
+        <view class='class_items_li' bindtap='navItemDeatailPage'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+      </view>
+    </view>
+    <view id ='l_zhongchou' class='class_items'>
+      <view class='class_items_classname'>众筹</view>
+      <view class='class_items_list'>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+      </view>
+    </view>
+   
+    <view class='class_items' id ='l_shouji'>
+      <view class='class_items_classname'>手机</view>
+      <view class='class_items_list'>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+      </view>
+    </view>
+    <view class='class_items' id ='l_dianshi'>
+      <view class='class_items_classname'>电视</view>
+      <view class='class_items_list'>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+      </view>
+    </view>
+    <view class='class_items' id ='l_diannao'>
+      <view class='class_items_classname'>电脑</view>
+      <view class='class_items_list'>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+        <view class='class_items_li'>             
+          <image  src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1546416475990.jpg' />
+          <text>红米Note7</text>
+        </view>
+      </view>
+    </view>
+    </scroll-view>
+    
+  </view>
+</view>

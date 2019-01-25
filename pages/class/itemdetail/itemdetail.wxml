@@ -1,0 +1,26 @@
+<!--pages/class/itemdetail/itemdetail.wxml-->
+<view class='container'>
+  <swiper class='swiper' indicator-dots ='true'>
+    <swiper-item>
+      <image src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall_test/6bb61371-3c55-41ca-b790-4c0907b3854a.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall_test/6bb61371-3c55-41ca-b790-4c0907b3854a.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall_test/6bb61371-3c55-41ca-b790-4c0907b3854a.jpg'></image>
+    </swiper-item>
+  </swiper>
+  <view class='item'>
+    <view class='item_name'>北极贝</view>
+    <view class='item_desc'>
+      <view>
+         生长在南极，最好吃的北极贝！生长在南极，最好吃的北极贝！生长在南极，最好吃的北极贝！生长在南极，最好吃的北极贝！生长在南 极，最好吃的北极贝！
+      </view>
+     </view>
+    <view class='item_price'>￥1119</view>
+  </view>
+  <view class='buy_info'>
+    <view></view>
+  </view>
+</view>

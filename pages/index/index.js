@@ -1,13 +1,19 @@
 //index.js
 //获取应用实例
 const app = getApp()
+let swImg={
+  "data": [{ "url":"https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1547877866585.jpg"},
+           { "url": "https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1547706546052.jpg" },
+          ]
+}
 
 Page({
   data: {
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    swData:swImg.data
   },
   //事件处理函数
   bindViewTap: function() {

@@ -7,12 +7,17 @@
     </view>
   </view>
   <swiper indicator-dots='true' autoplay='false'>
-    <swiper-item>
+    <!-- <swiper-item>
       <image src="https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1547877866585.jpg" class="slide-image"  />
     </swiper-item>
     <swiper-item>
      <image src='https://pzfresherp.oss-cn-shenzhen.aliyuncs.com/mall/ad/1547706546052.jpg'class="slide-image" ></image> 
-    </swiper-item>
+    </swiper-item> -->
+    <block wx:for="{{swData}}">
+      <swiper-item>
+        <image class='slide-image' src="{{item.url}}"></image>
+      </swiper-item>
+    </block>
   </swiper>
   <view class='itemclass_list'>
     <view class='itemclass_item'>

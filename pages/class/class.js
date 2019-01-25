@@ -1,11 +1,16 @@
 // pages/class/class.js
+const itemClass = ['xinpin','zhongchou','shouji','dianshi','diannao'];
+let itemClassTop = [];
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    'toClassView':'xinpin',
+    'toItemsView':'l_xinpin',
+    'bgcolors':{},
   },
 
   /**
@@ -19,7 +24,17 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+      let me = this;
+      for (let i = 0; i<itemClass.length;i++){
+        let query = wx.createSelectorQuery();
+        query.select('#l_'+itemClass[i]).boundingClientRect();
+        query.selectViewport().scrollOffset();
+        query.exec((res) => {
+          let top = res[0].top; 
+          let id = res[0].id;
+          itemClassTop.push({ id, top });
+        })
+      }
   },
 
   /**
@@ -62,5 +77,33 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  classScroll(e){
+    // console.log(e.detail.scrollTop);
+    let scrollTop = e.detail.scrollTop;
+    for(let i=0;i<itemClassTop.length;i++){
+      if (scrollTop >= itemClassTop[i].top && scrollTop<= itemClassTop[i+1].top){
+        let classId = itemClassTop[i].id.substr(2);
+        this.setData({
+          bgcolors: {[classId] : 'red' }
+        });
+       
+      }
+    }
+  },
+  classClick(e){
+    console.log(e);
+    if (e.target.id != this.data.toClassView || e.target.id ==='xinpin'){
+      this.setData({
+        toItemsView:'l_'+e.target.id,
+        bgcolors: { [e.target.id]: 'red'}
+      })
+     console.log(this.data.bgcolors)
+    }
+  },
+  navItemDeatailPage(){
+    wx.navigateTo({
+      url: 'itemdetail/itemdetail'
+    })
   }
 })

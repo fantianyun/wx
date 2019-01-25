@@ -1,4 +1,4 @@
-// pages/class/class.wxml.js
+// pages/class/itemdetail/itemdetail.js
 Page({
 
   /**

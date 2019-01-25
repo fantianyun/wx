@@ -1,1 +1,69 @@
-/* pages/class/class.wxss */
+.container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.container_left{
+  width: 20%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.class_item{
+  height: 50px;
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+  line-height: 50px;
+}
+/* 去掉滚动条 */
+::-webkit-scrollbar{
+
+width: 0;
+
+height: 0;
+
+color: transparent;
+
+}
+.container_right{
+  display: flex;
+  flex-flow: column wrap;
+  width: 80%;
+}
+.class_items{
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+}
+.class_items_classname{
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+.class_items_list{
+  display: flex;
+  flex-flow: row wrap;
+  width:100%;
+}
+.class_items_li{
+  display: flex;
+  flex-flow: column wrap;
+  width: 33%;
+  align-items: center;
+}
+.class_items_li image{
+  height: 60px;
+  width: 60px;
+}
+.class_items_li text{
+  height: 30px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 30px;
+}
+.click_bgcolor{
+  background: yellow;
+}

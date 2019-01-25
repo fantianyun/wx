@@ -1,22 +1,22 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/class/class"
+    "pages/class/class",
+    "pages/class/itemdetail/itemdetail"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "商城",
     "navigationBarTextStyle": "black"
-    
   },
   "tabBar": {
     "list": [
       {
         "pagePath": "pages/index/index",
         "text": "首页",
-        "iconPath":"pages/img/home.png",
-        "selectedIconPath":"pages/img/home_select.png"
+        "iconPath": "pages/img/home.png",
+        "selectedIconPath": "pages/img/home_select.png"
       },
       {
         "pagePath": "pages/class/class",
@@ -25,7 +25,5 @@
         "selectedIconPath": "pages/img/class_select.png"
       }
     ]
-   
   }
-  
 }
